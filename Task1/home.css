@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #161616;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+nav {
+    padding: 1.5em 2.5em;
+    position: relative;
+    width: 100%;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Sofia' sans-serif;
+}
+.menu-btn {
+    display: none;
+}
+.navbar-brand {
+    font-size: 1.3em;
+}
+nav a {
+    font-family: "Puppies Play", sans-serif;
+    font-size: 30px;
+}
+
+h1 {
+    font-weight: 300;
+    margin: 0.5em 0;
+    font-size: 3em;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    height: 100vh;
+    min-height: 30em;
+    background: 
+        url(img/car1.jpg)
+        no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 2.5em;
+    position: relative;
+}
+.menu-btn {
+    display: none;
+}
+.header-body {
+    font-size: 1.3em;
+}
+nav li {
+    display: inline-block;
+    margin: 0 0.8em;
+    text-align: center;
+}
+nav ul a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #a0a0a0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+nav ul a:after {
+    content: "";
+    position: absolute;
+    background-color: #2ECC71;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover:after {
+    width: 100%;
+}
+.navbar ul li {
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 3;
+}
+nav ul li a:hover {
+    color: "#5cb85c"
+}
+
+nav.stroke ul li a {
+  position: relative;
+}
+nav.stroke ul li a:before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #2ECC71;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+.header-body {
+    padding: 2.5em;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
